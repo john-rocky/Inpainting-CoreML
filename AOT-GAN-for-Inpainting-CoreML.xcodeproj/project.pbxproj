@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		734FA4E2298C59DD007627D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA4E1298C59DD007627D9 /* AppDelegate.swift */; };
+		734FA4E4298C59DD007627D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA4E3298C59DD007627D9 /* SceneDelegate.swift */; };
+		734FA4E6298C59DD007627D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA4E5298C59DD007627D9 /* ViewController.swift */; };
+		734FA4E9298C59DD007627D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734FA4E7298C59DD007627D9 /* Main.storyboard */; };
+		734FA4EB298C59DF007627D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 734FA4EA298C59DF007627D9 /* Assets.xcassets */; };
+		734FA4EE298C59DF007627D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 734FA4EC298C59DF007627D9 /* LaunchScreen.storyboard */; };
+		734FA4F9298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA4F8298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLTests.swift */; };
+		734FA503298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA502298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITests.swift */; };
+		734FA505298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA504298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		734FA4F5298C59DF007627D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734FA4D6298C59DD007627D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734FA4DD298C59DD007627D9;
+			remoteInfo = "AOT-GAN-for-Inpainting-CoreML";
+		};
+		734FA4FF298C59DF007627D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 734FA4D6298C59DD007627D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 734FA4DD298C59DD007627D9;
+			remoteInfo = "AOT-GAN-for-Inpainting-CoreML";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		734FA4DE298C59DD007627D9 /* AOT-GAN-for-Inpainting-CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AOT-GAN-for-Inpainting-CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734FA4E1298C59DD007627D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		734FA4E3298C59DD007627D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		734FA4E5298C59DD007627D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		734FA4E8298C59DD007627D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		734FA4EA298C59DF007627D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		734FA4ED298C59DF007627D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		734FA4EF298C59DF007627D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		734FA4F4298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AOT-GAN-for-Inpainting-CoreMLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734FA4F8298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOT_GAN_for_Inpainting_CoreMLTests.swift; sourceTree = "<group>"; };
+		734FA4FE298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AOT-GAN-for-Inpainting-CoreMLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		734FA502298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOT_GAN_for_Inpainting_CoreMLUITests.swift; sourceTree = "<group>"; };
+		734FA504298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOT_GAN_for_Inpainting_CoreMLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		734FA4DB298C59DD007627D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FA4F1298C59DF007627D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FA4FB298C59DF007627D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		734FA4D5298C59DD007627D9 = {
+			isa = PBXGroup;
+			children = (
+				734FA4E0298C59DD007627D9 /* AOT-GAN-for-Inpainting-CoreML */,
+				734FA4F7298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLTests */,
+				734FA501298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLUITests */,
+				734FA4DF298C59DD007627D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		734FA4DF298C59DD007627D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				734FA4DE298C59DD007627D9 /* AOT-GAN-for-Inpainting-CoreML.app */,
+				734FA4F4298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLTests.xctest */,
+				734FA4FE298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		734FA4E0298C59DD007627D9 /* AOT-GAN-for-Inpainting-CoreML */ = {
+			isa = PBXGroup;
+			children = (
+				734FA4E1298C59DD007627D9 /* AppDelegate.swift */,
+				734FA4E3298C59DD007627D9 /* SceneDelegate.swift */,
+				734FA4E5298C59DD007627D9 /* ViewController.swift */,
+				734FA4E7298C59DD007627D9 /* Main.storyboard */,
+				734FA4EA298C59DF007627D9 /* Assets.xcassets */,
+				734FA4EC298C59DF007627D9 /* LaunchScreen.storyboard */,
+				734FA4EF298C59DF007627D9 /* Info.plist */,
+			);
+			path = "AOT-GAN-for-Inpainting-CoreML";
+			sourceTree = "<group>";
+		};
+		734FA4F7298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				734FA4F8298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLTests.swift */,
+			);
+			path = "AOT-GAN-for-Inpainting-CoreMLTests";
+			sourceTree = "<group>";
+		};
+		734FA501298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				734FA502298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITests.swift */,
+				734FA504298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITestsLaunchTests.swift */,
+			);
+			path = "AOT-GAN-for-Inpainting-CoreMLUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		734FA4DD298C59DD007627D9 /* AOT-GAN-for-Inpainting-CoreML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734FA508298C59DF007627D9 /* Build configuration list for PBXNativeTarget "AOT-GAN-for-Inpainting-CoreML" */;
+			buildPhases = (
+				734FA4DA298C59DD007627D9 /* Sources */,
+				734FA4DB298C59DD007627D9 /* Frameworks */,
+				734FA4DC298C59DD007627D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AOT-GAN-for-Inpainting-CoreML";
+			productName = "AOT-GAN-for-Inpainting-CoreML";
+			productReference = 734FA4DE298C59DD007627D9 /* AOT-GAN-for-Inpainting-CoreML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		734FA4F3298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734FA50B298C59DF007627D9 /* Build configuration list for PBXNativeTarget "AOT-GAN-for-Inpainting-CoreMLTests" */;
+			buildPhases = (
+				734FA4F0298C59DF007627D9 /* Sources */,
+				734FA4F1298C59DF007627D9 /* Frameworks */,
+				734FA4F2298C59DF007627D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734FA4F6298C59DF007627D9 /* PBXTargetDependency */,
+			);
+			name = "AOT-GAN-for-Inpainting-CoreMLTests";
+			productName = "AOT-GAN-for-Inpainting-CoreMLTests";
+			productReference = 734FA4F4298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		734FA4FD298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 734FA50E298C59DF007627D9 /* Build configuration list for PBXNativeTarget "AOT-GAN-for-Inpainting-CoreMLUITests" */;
+			buildPhases = (
+				734FA4FA298C59DF007627D9 /* Sources */,
+				734FA4FB298C59DF007627D9 /* Frameworks */,
+				734FA4FC298C59DF007627D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				734FA500298C59DF007627D9 /* PBXTargetDependency */,
+			);
+			name = "AOT-GAN-for-Inpainting-CoreMLUITests";
+			productName = "AOT-GAN-for-Inpainting-CoreMLUITests";
+			productReference = 734FA4FE298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		734FA4D6298C59DD007627D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					734FA4DD298C59DD007627D9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					734FA4F3298C59DF007627D9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 734FA4DD298C59DD007627D9;
+					};
+					734FA4FD298C59DF007627D9 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 734FA4DD298C59DD007627D9;
+					};
+				};
+			};
+			buildConfigurationList = 734FA4D9298C59DD007627D9 /* Build configuration list for PBXProject "AOT-GAN-for-Inpainting-CoreML" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 734FA4D5298C59DD007627D9;
+			productRefGroup = 734FA4DF298C59DD007627D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				734FA4DD298C59DD007627D9 /* AOT-GAN-for-Inpainting-CoreML */,
+				734FA4F3298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLTests */,
+				734FA4FD298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		734FA4DC298C59DD007627D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734FA4EE298C59DF007627D9 /* LaunchScreen.storyboard in Resources */,
+				734FA4EB298C59DF007627D9 /* Assets.xcassets in Resources */,
+				734FA4E9298C59DD007627D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FA4F2298C59DF007627D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FA4FC298C59DF007627D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		734FA4DA298C59DD007627D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734FA4E6298C59DD007627D9 /* ViewController.swift in Sources */,
+				734FA4E2298C59DD007627D9 /* AppDelegate.swift in Sources */,
+				734FA4E4298C59DD007627D9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FA4F0298C59DF007627D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734FA4F9298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		734FA4FA298C59DF007627D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				734FA503298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITests.swift in Sources */,
+				734FA505298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		734FA4F6298C59DF007627D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734FA4DD298C59DD007627D9 /* AOT-GAN-for-Inpainting-CoreML */;
+			targetProxy = 734FA4F5298C59DF007627D9 /* PBXContainerItemProxy */;
+		};
+		734FA500298C59DF007627D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 734FA4DD298C59DD007627D9 /* AOT-GAN-for-Inpainting-CoreML */;
+			targetProxy = 734FA4FF298C59DF007627D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		734FA4E7298C59DD007627D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734FA4E8298C59DD007627D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		734FA4EC298C59DF007627D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				734FA4ED298C59DF007627D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		734FA506298C59DF007627D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		734FA507298C59DF007627D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		734FA509298C59DF007627D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AOT-GAN-for-Inpainting-CoreML/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.AOT-GAN-for-Inpainting-CoreML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		734FA50A298C59DF007627D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AOT-GAN-for-Inpainting-CoreML/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.AOT-GAN-for-Inpainting-CoreML";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		734FA50C298C59DF007627D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.AOT-GAN-for-Inpainting-CoreMLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOT-GAN-for-Inpainting-CoreML.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AOT-GAN-for-Inpainting-CoreML";
+			};
+			name = Debug;
+		};
+		734FA50D298C59DF007627D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.AOT-GAN-for-Inpainting-CoreMLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOT-GAN-for-Inpainting-CoreML.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AOT-GAN-for-Inpainting-CoreML";
+			};
+			name = Release;
+		};
+		734FA50F298C59DF007627D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.AOT-GAN-for-Inpainting-CoreMLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AOT-GAN-for-Inpainting-CoreML";
+			};
+			name = Debug;
+		};
+		734FA510298C59DF007627D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFN25KNUGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "daisuke.AOT-GAN-for-Inpainting-CoreMLUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AOT-GAN-for-Inpainting-CoreML";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		734FA4D9298C59DD007627D9 /* Build configuration list for PBXProject "AOT-GAN-for-Inpainting-CoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734FA506298C59DF007627D9 /* Debug */,
+				734FA507298C59DF007627D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734FA508298C59DF007627D9 /* Build configuration list for PBXNativeTarget "AOT-GAN-for-Inpainting-CoreML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734FA509298C59DF007627D9 /* Debug */,
+				734FA50A298C59DF007627D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734FA50B298C59DF007627D9 /* Build configuration list for PBXNativeTarget "AOT-GAN-for-Inpainting-CoreMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734FA50C298C59DF007627D9 /* Debug */,
+				734FA50D298C59DF007627D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		734FA50E298C59DF007627D9 /* Build configuration list for PBXNativeTarget "AOT-GAN-for-Inpainting-CoreMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				734FA50F298C59DF007627D9 /* Debug */,
+				734FA510298C59DF007627D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 734FA4D6298C59DD007627D9 /* Project object */;
+}
