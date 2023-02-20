@@ -16,6 +16,11 @@
 		734FA4F9298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA4F8298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLTests.swift */; };
 		734FA503298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA502298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITests.swift */; };
 		734FA505298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA504298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITestsLaunchTests.swift */; };
+		734FA512298C5A69007627D9 /* aotgan.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 734FA511298C5A69007627D9 /* aotgan.mlmodel */; };
+		734FA514298C5BCF007627D9 /* CoreMLHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA513298C5BCE007627D9 /* CoreMLHelpers.swift */; };
+		734FA55A298E0D13007627D9 /* Drawsana in Frameworks */ = {isa = PBXBuildFile; productRef = 734FA559298E0D13007627D9 /* Drawsana */; };
+		734FA59C29920691007627D9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 734FA59B29920691007627D9 /* Utils.swift */; };
+		734FA59E29920E08007627D9 /* realesrgangeneral512.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 734FA59D29920E08007627D9 /* realesrgangeneral512.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,10 @@
 		734FA4FE298C59DF007627D9 /* AOT-GAN-for-Inpainting-CoreMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AOT-GAN-for-Inpainting-CoreMLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		734FA502298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOT_GAN_for_Inpainting_CoreMLUITests.swift; sourceTree = "<group>"; };
 		734FA504298C59DF007627D9 /* AOT_GAN_for_Inpainting_CoreMLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOT_GAN_for_Inpainting_CoreMLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		734FA511298C5A69007627D9 /* aotgan.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = aotgan.mlmodel; sourceTree = "<group>"; };
+		734FA513298C5BCE007627D9 /* CoreMLHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreMLHelpers.swift; sourceTree = "<group>"; };
+		734FA59B29920691007627D9 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		734FA59D29920E08007627D9 /* realesrgangeneral512.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = realesrgangeneral512.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				734FA55A298E0D13007627D9 /* Drawsana in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +112,11 @@
 				734FA4E1298C59DD007627D9 /* AppDelegate.swift */,
 				734FA4E3298C59DD007627D9 /* SceneDelegate.swift */,
 				734FA4E5298C59DD007627D9 /* ViewController.swift */,
+				734FA59B29920691007627D9 /* Utils.swift */,
+				734FA513298C5BCE007627D9 /* CoreMLHelpers.swift */,
 				734FA4E7298C59DD007627D9 /* Main.storyboard */,
+				734FA511298C5A69007627D9 /* aotgan.mlmodel */,
+				734FA59D29920E08007627D9 /* realesrgangeneral512.mlmodel */,
 				734FA4EA298C59DF007627D9 /* Assets.xcassets */,
 				734FA4EC298C59DF007627D9 /* LaunchScreen.storyboard */,
 				734FA4EF298C59DF007627D9 /* Info.plist */,
@@ -143,6 +157,9 @@
 			dependencies = (
 			);
 			name = "AOT-GAN-for-Inpainting-CoreML";
+			packageProductDependencies = (
+				734FA559298E0D13007627D9 /* Drawsana */,
+			);
 			productName = "AOT-GAN-for-Inpainting-CoreML";
 			productReference = 734FA4DE298C59DD007627D9 /* AOT-GAN-for-Inpainting-CoreML.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +232,9 @@
 				Base,
 			);
 			mainGroup = 734FA4D5298C59DD007627D9;
+			packageReferences = (
+				734FA558298E0D13007627D9 /* XCRemoteSwiftPackageReference "Drawsana" */,
+			);
 			productRefGroup = 734FA4DF298C59DD007627D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,7 +280,11 @@
 			files = (
 				734FA4E6298C59DD007627D9 /* ViewController.swift in Sources */,
 				734FA4E2298C59DD007627D9 /* AppDelegate.swift in Sources */,
+				734FA514298C5BCF007627D9 /* CoreMLHelpers.swift in Sources */,
+				734FA59E29920E08007627D9 /* realesrgangeneral512.mlmodel in Sources */,
 				734FA4E4298C59DD007627D9 /* SceneDelegate.swift in Sources */,
+				734FA512298C5A69007627D9 /* aotgan.mlmodel in Sources */,
+				734FA59C29920691007627D9 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,10 +460,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = MFN25KNUGJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AOT-GAN-for-Inpainting-CoreML/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Inpainting;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -464,10 +490,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.2;
 				DEVELOPMENT_TEAM = MFN25KNUGJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "AOT-GAN-for-Inpainting-CoreML/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Inpainting;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -602,6 +630,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		734FA558298E0D13007627D9 /* XCRemoteSwiftPackageReference "Drawsana" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Asana/Drawsana";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		734FA559298E0D13007627D9 /* Drawsana */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 734FA558298E0D13007627D9 /* XCRemoteSwiftPackageReference "Drawsana" */;
+			productName = Drawsana;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 734FA4D6298C59DD007627D9 /* Project object */;
 }
